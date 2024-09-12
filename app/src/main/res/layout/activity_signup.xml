@@ -84,15 +84,15 @@
             android:background="#410099FF">
 
             <RadioButton
-                android:id="@+id/admin"
+                android:id="@+id/vendor"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Admin"/>
+                android:text="Vendor"/>
             <RadioButton
-                android:id="@+id/user"
+                android:id="@+id/customer"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="User"/>
+                android:text="Customer"/>
         </RadioGroup>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -164,5 +164,17 @@
             android:textSize="18sp" />
 
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/signUpProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateTint="#0099ff"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

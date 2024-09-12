@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "425883563819",
+    "firebase_url": "https://innogasproj-default-rtdb.firebaseio.com",
+    "project_id": "innogasproj",
+    "storage_bucket": "innogasproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425883563819:android:937b351bf42fd7c291f76e",
+        "android_client_info": {
+          "package_name": "com.itech.innogas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0uANd2yRWFftHq1PzIAh8V1b092VPhLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
