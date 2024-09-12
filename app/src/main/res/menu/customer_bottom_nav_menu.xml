@@ -7,9 +7,13 @@
         android:icon="@drawable/baseline_home_24"
         android:title="Home"/>
     <item
-        android:id="@+id/scanner"
-        android:icon="@drawable/baseline_qr_code_scanner_24"
-        android:title="Scanner"/>
+        android:id="@+id/monitoring"
+        android:icon="@drawable/baseline_gas_meter_24"
+        android:title="Monitoring"/>
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="Notification"/>
     <item
         android:id="@+id/profile"
         android:icon="@drawable/baseline_person_24"
