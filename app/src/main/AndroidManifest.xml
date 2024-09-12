@@ -13,6 +13,21 @@
         android:theme="@style/Theme.InnoGas"
         tools:targetApi="31">
         <activity
+            android:name=".VendorProfileDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".VendorScannerDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".VendorEditProductDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".VendorViewDetailsDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".VendorAddProductDashboard"
+            android:exported="false" />
+        <activity
             android:name=".CustomerDashboard"
             android:exported="false" />
         <activity
