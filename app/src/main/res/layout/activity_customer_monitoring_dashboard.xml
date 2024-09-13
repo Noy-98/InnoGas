@@ -22,13 +22,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_margin="5dp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="190dp"
-                android:layout_height="190dp"
-                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
                 android:background="#f8f8f8"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp">
@@ -42,41 +43,16 @@
                     android:layout_gravity="center"
                     tools:ignore="UseCompoundDrawables">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/gas_leak_icon"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_gravity="center"
-                            android:gravity="center">
-
-                            <TextView
-                                android:id="@+id/gas_leak"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="0"
-                                android:textColor="#089BFD"
-                                android:textStyle="bold"
-                                android:textSize="20sp"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gas_leak_icon"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gas Leak"
+                        android:text="0"
                         android:layout_marginTop="30dp"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -87,9 +63,9 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
-                android:layout_width="190dp"
-                android:layout_height="190dp"
-                android:layout_margin="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_margin="10dp"
                 android:background="#f8f8f8"
                 app:cardCornerRadius="20dp"
                 app:cardElevation="8dp">
@@ -103,41 +79,16 @@
                     android:layout_gravity="center"
                     tools:ignore="UseCompoundDrawables">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/gas_level"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_gravity="center"
-                            android:gravity="center">
-
-                            <TextView
-                                android:id="@+id/gas_level"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="0"
-                                android:textColor="#089BFD"
-                                android:textStyle="bold"
-                                android:textSize="20sp"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/gas_level"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gas Level"
+                        android:text="0"
                         android:layout_marginTop="30dp"
                         android:textColor="@color/black"
                         android:textSize="20sp"
@@ -154,11 +105,12 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
+            android:layout_margin="5dp"
             android:orientation="horizontal">
 
             <androidx.cardview.widget.CardView
-                android:layout_width="190dp"
-                android:layout_height="190dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
                 android:layout_margin="20dp"
                 android:background="#f8f8f8"
                 app:cardCornerRadius="20dp"
@@ -173,41 +125,16 @@
                     android:layout_gravity="center"
                     tools:ignore="UseCompoundDrawables">
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:orientation="horizontal">
-
-                        <ImageView
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_gravity="center"
-                            android:src="@drawable/lpg_icon"/>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="horizontal"
-                            android:layout_gravity="center"
-                            android:gravity="center">
-
-                            <TextView
-                                android:id="@+id/gas_name"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:text="0"
-                                android:textColor="#089BFD"
-                                android:textStyle="bold"
-                                android:textSize="20sp"/>
-
-                        </LinearLayout>
-
-                    </LinearLayout>
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/lpg_icon"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gas Name"
+                        android:text="0"
                         android:layout_marginTop="30dp"
                         android:textColor="@color/black"
                         android:textSize="20sp"
