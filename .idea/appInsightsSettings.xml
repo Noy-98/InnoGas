@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.itech.innogas" />
+                  <option name="mobileSdkAppId" value="1:425883563819:android:937b351bf42fd7c291f76e" />
+                  <option name="projectId" value="innogasproj" />
+                  <option name="projectNumber" value="425883563819" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />
