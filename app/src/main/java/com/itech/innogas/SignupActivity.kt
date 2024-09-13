@@ -61,7 +61,7 @@ class SignupActivity : AppCompatActivity() {
 
         signup.setOnClickListener {
             val fname = firstName.text.toString()
-            val profilePic = "https://firebasestorage.googleapis.com/v0/b/incuhatchtech-proj.appspot.com/o/profile_images%2Fdefault_pic.png?alt=media&token=a59610cf-4ec9-4a62-8c70-35089b7dc588"
+            val profilePic = "https://firebasestorage.googleapis.com/v0/b/innogasproj.appspot.com/o/profile_pictures%2Fdefault_pic.png?alt=media&token=e7e356d2-a820-4038-9914-d7156c45f1b0"
             val lname = lastName.text.toString()
             val em = email.text.toString()
             val pass = password.text.toString()
