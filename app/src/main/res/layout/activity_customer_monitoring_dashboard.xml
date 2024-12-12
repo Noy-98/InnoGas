@@ -47,9 +47,10 @@
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_gravity="center"
-                        android:src="@drawable/gas_leak_icon"/>
+                        android:src="@drawable/thermostat"/>
 
                     <TextView
+                        android:id="@+id/temperature"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
@@ -86,6 +87,7 @@
                         android:src="@drawable/gas_level"/>
 
                     <TextView
+                        android:id="@+id/gasLevel"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
@@ -132,6 +134,7 @@
                         android:src="@drawable/lpg_icon"/>
 
                     <TextView
+                        android:id="@+id/gasType"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="0"
